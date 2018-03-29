@@ -1,0 +1,17 @@
+// Magnitude of a Vector
+// By HyperNovae
+open System
+
+(*Square root the two numbers after they are squared*)
+let square_root input : float =
+  sqrt input
+
+(*Square the x and y and send them to the square_root function*)
+let square x y : float = 
+  let squared_add = x**2.0+y**2.0
+  square_root squared_add
+  
+(*Pass arguments and get answer*)
+let result : float =
+  square 2.5 5.3
+Console.WriteLine("The magnitude of the vector is: {0}", result) // Print the answer :D
