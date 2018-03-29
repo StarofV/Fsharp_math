@@ -1,0 +1,9 @@
+// Area of a Hexagon 
+// By HyperNovae
+
+module Area_of_Hexagon
+open System
+
+let Area sides radius : float = 
+  3.0 * sides * radius
+Console.WriteLine("The area of the Hexagon is: {0}.", (Area 5.0 3.0))
