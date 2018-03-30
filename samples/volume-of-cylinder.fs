@@ -6,7 +6,5 @@ module volume_of_cylinder
 open System
 
 let Calculate radius hight : float = 
-  let pi = 3.14159
-  let radius_squared = radius*radius
-  radius_squared * pi * hight // Formula: pi(r^2)*h
+  Math.PI * hight * radius**2.0 // Formula: pi(r^2)*h
 printfn "volume is: %g" (Calculate 25.0 50.0) // Please input floats. I.E, 5 would be 5.0
