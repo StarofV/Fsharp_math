@@ -1,2 +1,2 @@
 # Fsharp_math
-Fsharp math :D
+#### Mathematical problem solving using F#.
